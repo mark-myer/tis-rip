@@ -275,6 +275,8 @@ if __name__ == "__main__":
             REPAIR_MANUALS.append(arg)
         elif arg.startswith('BM'):
             COLLISION_MANUALS.append(arg)
+        elif arg.startswith('NM'):
+            NEWCAR_FEATURES.append(arg)
         else:
             print("Unknown document type for '" + arg + "'!")
             sys.exit(1)
